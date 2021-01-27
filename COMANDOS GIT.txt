@@ -1,0 +1,14 @@
+Baixar git bash
+Navegar até pasta do arquivo
+
+git init
+
+git status -> mostra relatorio do repositorio
+
+git add . -> adiciona todos os arquivos
+
+git add index.html -> adiciona so o arquivo
+
+git rm --cached <file> -> remove o arquivo
+
+git commit -m "mensagem descritiva"

@@ -12,3 +12,50 @@ git add index.html -> adiciona so o arquivo
 git rm --cached <file> -> remove o arquivo
 
 git commit -m "mensagem descritiva"
+
+//alterar usuario local ou globalg
+
+git config --local user.name "Seu nome aqui"
+git config --local user.email "seu@email.aqui"
+
+//verificando 
+
+git config user.email
+git config user.name
+
+//visualizando informacoes dos commits
+
+git log
+
+//visualizar todos os commits 
+
+git log --oneline
+
+git log -p
+
+//para ignorar arquivo criar arquivo txt .gititnore
+
+nome do arquivo
+pasta/
+
+//criando repositorio remoto para alterações do projeto
+
+mkdir servidor
+cd servidor
+git init --bare
+
+//adicionando caminho para repositorio remoto
+
+git remote
+git remote add local
+git remote -v
+gitr remote rename origin local 
+
+//clonando um repositorio
+
+git clone endereco
+
+//enviando dados para repositorio 
+
+git push nome master
+
